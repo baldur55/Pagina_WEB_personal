@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harold Caicedo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+
+    <!-- Aqui es la parte donde cuando samos click a un elance
+       este nos envia a la respectiva seccion -->
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/experiences.css" />
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="observer-root-margin"></div>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="img/yo.jpeg" alt="programador" />
+                <div class="logotype">
+                    Harold Caicedo<br /> (Estudiante)
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+          <img src="img/hamburger-icon.svg" alt="abrir menú" />
+        </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+            <img src="img/close-icon.svg" alt="cerrar menú" />
+          </button>
+
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, me llamo <br />Harold Caicedo</h1>
+                <p class="profile-details">
+                    Soy estudiante de la Universidad estatal de milagro y actualmente estoy cursando la carrera de ingenieria en Sotware, en la cual he conocido varios lenguajes de programacion.
+                </p>
+                <button class="profile-btn">Descargar cv</button>
+            </div>
+            <span class="profile-img-section">
+          <img class="profile-img" src="img/yo.jpeg" alt="programador" />
+          <div class="profile-img-line"></div>
+        </span>
+        </section>
+    </div>
+
+    <section class="experiences" id="experience">
+        <img src="img/negro_wave.svg " alt="división " class="wave" />
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2020-2020</div>
+                    <div class="experience-company">UIC</div>
+                    <div class="experience-position">Curso de ingles B1</div>
+                    <div class="experience-description">
+                        Curso de ingles realizado hazta el nivel B1 el cual es el tercer nivel de dominio de la lengua extrangera y el primero que se puede calificar de intermedio.
+                    </div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2018-2018</div>
+                    <div class="experience-company">Ingenio Valdez</div>
+                    <div class="experience-position">Pasante de bodega</div>
+                    <div class="experience-description">
+                        Mantener actualizado el inventario de bodega, materia prima, material de empaque, repuestos y herramientas. Inspección de documentos y de ingresos de materia prima pre-calidad.
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2018-2018</div>
+                    <div class="experience-company">Hospital Sergio P.</div>
+                    <div class="experience-position">Pasante</div>
+                    <div class="experience-description">
+                        Coordinacion y relacion con el resto de los servicios del hospital. Encargado de hacer los pedidos de almacen y farmacia, llenar los datos de las fichas medicas de los pacientes y organizarlas.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="img/wave.svg " alt="división " class="wave wave_bottom" />
+    </section>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">PYTHON</li>
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">SCRATCH</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">Primeros auxilios</li>
+                <li class="skills-skill">SQL Server</li>
+                <li class="skills-skill">Net Logo</li>
+            </ul>
+        </section>
+    </div>
+    <section class="contact vertical-padding" id="contact">
+        <h2 class="contact-title">Contacto</h2>
+    </section>
+</body>
+
+</html>
